@@ -1,0 +1,11 @@
+[package]
+name = "condensor"
+version = "0.0.1"
+authors = [ "Dan Everton <dan@iocaine.org>" ]
+
+[[bin]]
+name = "condensor"
+
+[dependencies.protobuf]
+git = "https://github.com/stepancheg/rust-protobuf.git"
+
